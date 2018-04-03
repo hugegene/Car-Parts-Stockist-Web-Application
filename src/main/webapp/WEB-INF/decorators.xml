@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<decorators defaultdir="/WEB-INF/decorators/">
+	<excludes>
+        <pattern>*/access-denied/*</pattern>
+    </excludes>
+	<decorator name="default" page="Layout.jsp">
+		<pattern>*</pattern>
+	</decorator>
+</decorators>
